@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo_ {
+    padding-top: 3rem;
+    padding-left: 5rem;
+    max-width: 100%;
+}
+
+.logo_1 {
+    max-width: 100%;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("./images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.register_button {
+    text-align: center;
+    max-width: 12vw;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px;   /* in order: x offset, y offset, blur size, spread size, color */
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.register_button:hover {
+    background-color: hsl(300, 69%, 71%);
+    max-width: 12vw;
+    border-radius: 35px;
+}
+
+a {
+
+    color:hsl(257, 40%, 49%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+
+}
+
+.register_a:hover {
+
+    background-color: hsl(300, 69%, 71%);
+    border-radius: 35px;
+    
+}
+
+h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-bottom: 2vh;
+    line-height: 6vh;
+}
+
+p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 2vh;
+    line-height: 4vh;
+}
+
+@media only screen and (max-width: 1200px) { /* If the browser window is 950px or smaller, the font size changes */
+  
+     p  {
+        font-size: 12px;
+      }
+  
+    h1  {
+          font-size: 20px;
+      }
+  
+}
+  
+.container {
+    display: flex;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.writing_1 {
+
+    padding-top: 7vh;
+    padding-left: 5vw;
+
+}
+
+
+  .fa {
+    padding: 12px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 2px;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-left: 13px; /* works well to put space between */
+  }
+
+  .fa-facebook:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+  }
+  
+  .fa-twitter {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-left: 13px; /* works well to put space between */
+  }
+
+  .fa-twitter:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+  }
+
+  .fa-instagram {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-left: 13px; /* works well to put space between */
+  }
+
+  .fa-instagram:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+  }
+
+  .social-media-icons {
+    display: flex;
+    float: right;
+    padding-right: 7rem;
+  }
