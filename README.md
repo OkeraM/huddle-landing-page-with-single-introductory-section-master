@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/OkeraM/huddle-landing-page-with-single-introductory-section-master](https://your-solution-url.com)
-- Live Site URL: [https://okeram.github.io/huddle-landing-page-with-single-introductory-section-master/](https://your-live-site-url.com)
+- Solution URL: [https://github.com/OkeraM/huddle-landing-page-with-single-introductory-section-master]([https://github.com/OkeraM/huddle-landing-page-with-single-introductory-section-master])
+- Live Site URL: [https://okeram.github.io/huddle-landing-page-with-single-introductory-section-master/](https://okeram.github.io/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 
